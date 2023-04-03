@@ -4,6 +4,7 @@
 
 ## 1. Install MPI
 ```shell
+$ sudo wget https://www.mpich.org/static/downloads/4.1.1/mpich-4.1.1.tar.gz
 $ sudo tar xvfz mpich-4.1.1.tar.gz
 $ cd mpich-4.1.1
 $ sudo ./configure -prefix=/opt/mpich/4.1.1
